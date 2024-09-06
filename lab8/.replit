@@ -1,9 +1,0 @@
-compile = ["gfortran -std=f2003", "./main.f95", "-o", "main"]
-run = "./main"
-
-entrypoint = "main.f95"
-modules = ["python-3.10:v25-20230920-d4ad2e4"]
-
-
-[nix]
-channel = "stable-21_11"
